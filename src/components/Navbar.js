@@ -8,8 +8,8 @@ export default function Navbar() {
         <div className="navbar">
             <ul>
                 <li className="logo">
-                    <img src={Temple} alt="dojo logo" />
-                    <span>Dojo</span>
+                    <img src={Temple} alt="teamhub logo" />
+                    <span>Team Hub</span>
                 </li>
                 <li>
                     <Link to="/login">Login</Link>
