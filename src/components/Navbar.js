@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useLogout } from '../hooks/useLogout';
 
 import './Navbar.css';
-import Temple from '../assets/temple.svg';
+import Logo from '../assets/logo.svg';
 
 export default function Navbar() {
     const { logout, isPending } = useLogout();
@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className="navbar">
             <ul>
                 <li className="logo">
-                    <img src={Temple} alt="teamhub logo" />
+                    <img src={Logo} alt="teamhub logo" />
                     <span>Team Hub</span>
                 </li>
                 <li>
@@ -25,5 +25,5 @@ export default function Navbar() {
                 </li>
             </ul>
         </div>
-    )
+    );
 }

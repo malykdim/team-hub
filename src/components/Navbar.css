@@ -14,7 +14,7 @@
 
 .navbar .logo {
     font-weight: bold;
-    color: var(--heading-color);
+    color: var(--primary-color);
     letter-spacing: 1px;
     display: flex;
     align-items: center;
@@ -23,13 +23,18 @@
 
 .navbar .logo img {
     width: 36px;
-    margin-top: -8px;
     margin-right: 10px;
-    filter: invert(25%);
+    filter: invert(65%);
 }
 
 .navbar a {
     color: #333;
     text-decoration: none;
     margin-right: 20px;
+}
+
+.navbar span {
+    font-size: 1.5em;
+    font-weight: 700;
+    text-decoration-thickness: 10%;
 }
